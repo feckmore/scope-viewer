@@ -14,5 +14,14 @@ video {
   top: 0;
   transition: opacity 0.3s linear;
   width: 100%;
+  z-index: 9998;
+}
+
+img {
+  widows: 80px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.2;
   z-index: 9999;
 }
